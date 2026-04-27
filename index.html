@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grill Νέα Λάμψακος | Το καλύτερο σουβλάκι</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
+        body { font-family: 'Manrope', sans-serif; }
+        .bg-grill { background-color: #121212; }
+        .accent-color { color: #facc15; }
+        .bg-accent { background-color: #facc15; }
+    </style>
+</head>
+<body class="bg-grill text-white">
+
+    <nav class="flex justify-between items-center p-5 sticky top-0 bg-grill z-50 border-b border-zinc-800">
+        <div class="flex items-center gap-2">
+            <i class="fas fa-fire-alt accent-color text-2xl"></i>
+            <span class="font-bold text-xl tracking-tight uppercase">Grill <span class="accent-color">Λάμψακος</span></span>
+        </div>
+        <a href="tel:2221077684" class="bg-accent text-black font-extrabold px-4 py-2 rounded-lg text-sm flex items-center gap-2">
+            <i class="fas fa-phone"></i> 2221 077684
+        </a>
+    </nav>
+
+    <section class="relative h-[60vh] flex items-center justify-center text-center px-6">
+        <div class="absolute inset-0 opacity-40">
+            <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1200&q=80" class="w-full h-full object-cover" alt="Grill Meat">
+        </div>
+        <div class="relative z-10">
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-4">Ζουμερός Γύρος & <br><span class="accent-color">Αγνά Υλικά</span></h1>
+            <p class="text-zinc-300 text-lg mb-8 max-w-xl mx-auto italic">Σε ένα λεπτό τρως πίτα με τον πιο ζουμερό και καταπληκτικό γύρο της Εύβοιας!</p>
+            <div class="flex justify-center gap-4">
+                <a href="#menu" class="bg-white text-black font-bold px-8 py-3 rounded-full hover:bg-accent transition">ΚΑΤΑΛΟΓΟΣ</a>
+                <a href="https://www.google.com/maps/dir//Grill+Νεα+Λαμψακο" target="_blank" class="border border-white px-8 py-3 rounded-full font-bold hover:bg-white hover:text-black transition">ΟΔΗΓΙΕΣ</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="py-16 px-6 max-w-4xl mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-extrabold uppercase italic">Ο Κατάλογος μας</h2>
+            <div class="h-1 w-20 bg-accent mx-auto mt-2"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <div>
+                <h3 class="accent-color text-xl font-bold mb-6 border-b border-zinc-700 pb-2">ΤΥΛΙΧΤΑ</h3>
+                <div class="space-y-4">
+                    <div class="flex justify-between items-center">
+                        <span>Πίτα Γύρος Χοιρινός</span>
+                        <span class="font-bold">3.50€</span>
+                    </div>
+                    <div class="flex justify-between items-center text-zinc-400 text-sm italic">
+                        <span>Πίτα Σουβλάκι Χοιρινό</span>
+                        <span class="font-bold text-white">3.50€</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span>Πίτα Κεμπάπ</span>
+                        <span class="font-bold">3.50€</span>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="accent-color text-xl font-bold mb-6 border-b border-zinc-700 pb-2">ΤΗΣ ΩΡΑΣ</h3>
+                <div class="space-y-4">
+                    <div class="flex justify-between items-center">
+                        <span>Μερίδα Γύρος</span>
+                        <span class="font-bold text-white">9.50€</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span>Σουβλάκι Χοιρινό (τεμ)</span>
+                        <span class="font-bold text-white">2.20€</span>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <span>Κεμπάπ (τεμ)</span>
+                        <span class="font-bold text-white">2.20€</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-zinc-900 py-16 px-6 text-center">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <div>
+                <i class="fas fa-map-marker-alt accent-color text-3xl mb-4"></i>
+                <h4 class="font-bold mb-2">ΔΙΕΥΘΥΝΣΗ</h4>
+                <p class="text-zinc-400 text-sm">Δημοκρατίας 53,<br>Νέα Λάμψακος 341 00</p>
+            </div>
+            <div>
+                <i class="fas fa-clock accent-color text-3xl mb-4"></i>
+                <h4 class="font-bold mb-2">ΩΡΑΡΙΟ</h4>
+                <p class="text-zinc-400 text-sm">Ανοιχτά καθημερινά<br>έως 11:00 μ.μ.</p>
+            </div>
+            <div>
+                <i class="fas fa-motorcycle accent-color text-3xl mb-4"></i>
+                <h4 class="font-bold mb-2">DELIVERY</h4>
+                <p class="text-zinc-400 text-sm">Γρήγορη παράδοση<br>στο χώρο σας</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 text-center border-t border-zinc-800">
+        <div class="flex justify-center gap-6 mb-6 text-2xl">
+            <a href="#" class="hover:text-yellow-500"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="hover:text-yellow-500"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="text-zinc-500 text-xs tracking-widest uppercase">© 2026 Grill Νέα Λάμψακος • Created by <span class="text-white">Pepe Web Designs</span></p>
+    </footer>
+
+</body>
+</html>
